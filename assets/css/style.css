@@ -38,3 +38,10 @@
 #contact h2 {margin-top:2.5rem;
                          text-align:center;
                         margin-bottom:2rem;}
+
+footer {background-color:darkcyan;
+        color:white;
+        text-align:center;
+        padding:1rem;
+        margin-top: 2rem;
+}
