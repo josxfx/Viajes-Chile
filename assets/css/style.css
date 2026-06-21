@@ -7,3 +7,17 @@
 
 .carousel-item img {height:100vh;
                             object-fit:cover;}
+
+#QuienesSomos h2 {margin-top:2.5rem;
+                                     text-align:center;}
+
+#QuienesSomos .card {margin-top: 3rem;
+                                         border:none;
+                                         }
+
+#QuienesSomos .card-body {display: flex;
+                                      flex-direction:column;
+                                      align-items:center;
+                                       text-align:center;}
+
+                                    
