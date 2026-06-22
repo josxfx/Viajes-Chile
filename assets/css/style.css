@@ -5,39 +5,92 @@
                left: 0;
                z-index: 10;}
 
+.navbar-brand {color: white;
+                 text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+                 -webkit-text-stroke: 0.4px darkgray;
+                 font-size:1.5rem;
+                 font-family: 'Josefin Sans';
+                 font-weight:700;}
+
+.navbar img {height:2rem;
+                       width:2rem;}
+
+.nav-link {color:white;
+            font-size: 1.1rem;
+            font-family: 'Cabin';
+            font-weight:700;
+            -webkit-text-stroke: 0.4px darkgray;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);}
+
 .carousel-item img {height:100vh;
                             object-fit:cover;}
 
 #QuienesSomos h2 {margin-top:2.5rem;
-                                     text-align:center;}
+                                     text-align:center;
+                                    font-family: 'Josefin Sans';
+                                    font-weight:500;}
 
 #QuienesSomos .card {margin-top: 3rem;
                                          border:none;
                                          }
+
+#QuienesSomos i {font-size:1.5rem;
+                                 background-color:darkcyan;
+                                 color:white;
+                                 padding-left: 6.5rem;
+                                 padding-right:6.5rem;
+                                 padding-top: 0.3rem;
+                                padding-bottom: 0.3rem;}
+
+#QuienesSomos .card-text {font-size:1rem;
+                                      font-family: 'Cabin';
+                                      font-weight:400;
+                                    text-align: justify;
+                                    margin-top:0.5rem;
+                                    margin-bottom:0.5rem;}
 
 #QuienesSomos .card-body {display: flex;
                                       flex-direction:column;
                                       align-items:center;
                                        text-align:center;}
 
+#Destacados .card {background-color: darkcyan;
+                                         color:white;}
+
 #Destacados h2 {margin-top:2.5rem;
                                      text-align:center;
-                                    margin-bottom:2rem;}
+                                    margin-bottom:2rem;
+                                   font-family: 'Josefin Sans';
+                                   font-weight:500;}
 
-#Destacados .card-group {display:flex;
-                                         flex-wrap:wrap;
-                                        justify-content:center;
-                                       gap:1rem;
-                                      margin-right:2rem;
-                                      margin-left:2rem;
-                                    }
+#Destacados .card-img-top {height:10rem;
+                                         object-fit:cover;}                      
+                                         
+#Destacados .card-title {font-size:1.5rem;
+                                         font-family:'Josefin Sans';
+                                         font-weight:500;}
 
-#Destacados .card img {height:10rem;
-                                         object-fit:cover}                               
+#Destacados .card-text {font-size:1rem;
+                                        font-family: 'Cabin';
+                                        font-weight:400;
+                                        text-align: justify;}
                                 
-#contact h2 {margin-top:2.5rem;
+#Contacto h2 {margin-top:2.5rem;
                          text-align:center;
-                        margin-bottom:2rem;}
+                        margin-bottom:2rem;
+                       font-family: 'Josefin Sans';
+                       font-weight:500;}
+
+#Contacto .form-label {font-family: 'Cabin';
+                                             font-size:1rem;
+                                             font-weight:400;
+                                             color:darkcyan;}
+
+#Contacto .btn {background-color:darkcyan;
+                             color:white;
+                             font-family: 'Cabin';
+                             font-size:1rem;
+                            font-weight:400;}
 
 footer {background-color:darkcyan;
         color:white;
@@ -45,3 +98,16 @@ footer {background-color:darkcyan;
         padding:1rem;
         margin-top: 2rem;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer a {color:white;
+            text-decoration:none;
+            font-size:2rem;}
+
+footer .textfooter {font-size:2rem;
+                                 font-family: 'Josefin Sans';
+                                 font-weight:500;
+                                 margin-top: 0.8rem;}
